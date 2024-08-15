@@ -150,9 +150,9 @@ button>label {
 @media only screen and (max-width: 600px) {
     .Box {
         width: 350px;
-        height: 160px;
+        height: 100%;
         margin-bottom: 20px;
-        align-items: center;
+        align-items: start;
     }
 
     .Describtion {
@@ -180,6 +180,21 @@ button>label {
 
     .left {
         margin-left: 0;
+    }
+
+    .photo {
+        width: 22px;
+        height: 22px;
+        border-radius: 50%;
+    }
+
+    .iconreplay {
+        width: 10px;
+        height: 10px;
+    }
+
+    .Replay {
+        font-size: 14px;
     }
 
 
