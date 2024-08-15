@@ -31,17 +31,17 @@ input {
     border: none;
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
 
     .AddNewComment {
-        width: 410px;
+        width: 380px;
         height: 100px;
         align-items: center;
 
     }
 
     input {
-        width: 311px;
+        width: 300px;
         height: 80px;
     }
 }

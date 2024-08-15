@@ -147,20 +147,33 @@ button>label {
 
 
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 600px) {
     .Box {
-        width: 410px;
+        width: 380px;
         height: 230px;
     }
 
     .Describtion {
-        width: 311px;
+        width: 300px;
         height: 120px;
+        font-size: 14px;
+
     }
 
     .Counter {
         height: 150px;
     }
+
+    .firstlabel,
+    .secondlabel {
+        font-size: 14px;
+    }
+
+    .btndelete,
+    .btnreply {
+        font-size: 14px;
+    }
+
 
 
 
