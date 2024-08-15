@@ -1,5 +1,5 @@
 .CommentItem {
-    height: 200px;
+    height: 167px;
     background-color: white;
     border-radius: 5px;
     display: flex;
@@ -58,13 +58,14 @@
 
 @media only screen and (max-width: 600px) {
     .CommentItem {
-        width: 380px;
-        height: 200px;
+        width: 350px;
+        height: 160px;
+        align-items: center;
     }
 
     .commentdiv {
-        width: 300px;
-        height: 140px;
+        width: 280px;
+        height: 90px;
     }
 
     .comment {
