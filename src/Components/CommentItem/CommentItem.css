@@ -1,0 +1,73 @@
+.CommentItem {
+    height: 200px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+    width: 642px;
+    margin-bottom: 10px;
+}
+
+.commentdiv {
+    width: 530px;
+    margin-top: 10px;
+}
+
+.comment {
+    color: #67727E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.editbtn {
+    color: #5357B6;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+    align-items: center;
+    background-color: transparent;
+    column-gap: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.btnUpdate {
+    width: 104px;
+    height: 48px;
+    background-color: #5357B6;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    border: none;
+
+}
+
+.divupdate {
+    margin-top: 10px;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+}
+
+@media only screen and (max-width: 700px) {
+    .CommentItem {
+        width: 410px;
+        height: 210px;
+    }
+
+    .commentdiv {
+        width: 311px;
+        height: 140px;
+    }
+
+
+
+
+}

@@ -1,0 +1,167 @@
+.Boxes {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    gap: 5px;
+}
+
+.Box {
+    width: 730px;
+    height: 167px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    gap: 10px;
+    align-items: center;
+
+
+}
+
+.Counter {
+    width: 40px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F5F6FA;
+    border-radius: 5px;
+
+}
+
+.Counter button {
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: none;
+    height: 100%;
+    background-color: transparent;
+    align-items: center;
+    justify-content: center;
+    row-gap: 12px;
+
+}
+
+button>span {
+    color: #C5C6EF;
+    cursor: pointer;
+    font-weight: 900;
+    font-size: medium;
+}
+
+button>span:hover {
+    color: #5357B6;
+}
+
+button>label {
+    color: #5357B6;
+    font-weight: 700;
+}
+
+.photo {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+}
+
+.iconreplay {
+    width: 15px;
+    height: 15px;
+}
+
+.Top {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.firstlabel {
+    font-weight: 600;
+    font-size: 16px;
+    color: #334253;
+
+}
+
+.secondlabel,
+.Describtion {
+    color: #67727E;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+
+}
+
+.Describtion {
+    width: 618px;
+    height: 50px;
+}
+
+.btnreply {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: transparent;
+    column-gap: 10px;
+    border: none;
+}
+
+.Replay {
+    color: #5357B6;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.right {
+
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.left {
+    margin-left: 10px;
+}
+
+.Buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.btndelete {
+    background-color: transparent;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    color: #ED6368;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+
+
+@media only screen and (max-width: 700px) {
+    .Box {
+        width: 410px;
+        height: 230px;
+    }
+
+    .Describtion {
+        width: 311px;
+        height: 120px;
+    }
+
+    .Counter {
+        height: 150px;
+    }
+
+
+
+}

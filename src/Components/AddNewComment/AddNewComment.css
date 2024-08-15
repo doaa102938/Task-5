@@ -1,0 +1,47 @@
+.AddNewComment {
+    width: 642px;
+    height: 144px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    padding: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    gap: 10px;
+}
+
+input {
+    width: 418px;
+    height: 96px;
+    border: 1px solid #5357B6;
+    border-radius: 5px;
+
+}
+
+.btncommment {
+    width: 104px;
+    height: 48px;
+    background-color: #5357B6;
+    border-radius: 5px;
+    color: #FFFFFF;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    border: none;
+}
+
+@media only screen and (max-width: 700px) {
+
+    .AddNewComment {
+        width: 410px;
+        height: 100px;
+        align-items: center;
+
+    }
+
+    input {
+        width: 311px;
+        height: 80px;
+    }
+}

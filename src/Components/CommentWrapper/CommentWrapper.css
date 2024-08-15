@@ -1,0 +1,31 @@
+.commentWrapper {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90px;
+
+}
+
+.commentWrapper::before {
+    content: '';
+    width: 3px;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background-color: #E9EBF0;
+    left: -50px;
+
+}
+
+@media only screen and (max-width: 700px) {
+    .commentWrapper {
+        margin-left: 40px;
+    }
+
+    .commentWrapper::before {
+        left: -15px;
+    }
+
+}
